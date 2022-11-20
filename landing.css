@@ -1,0 +1,131 @@
+body {
+    margin:0;
+    box-sizing: border-box
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1e2837;
+    color: #f8fafa;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menulinks {
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(221, 221, 221);
+    font-family: "izayoi";
+    padding: 10px
+}
+
+.headlogo {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px
+}
+
+.brief-info {
+    display: flex;
+    background-color:#1e2837;
+    color: #f8fafa;
+    justify-content: center;
+}
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px
+}
+
+.testimonial-background{
+    display:flex;
+    background-color: #e6e6ea;
+}
+
+#testimonial-reply{
+    position: relative;
+    margin: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#testimonial-person{
+    width: 100px;
+    position: absolute;
+    bottom: -35px;
+    left: 820px
+}
+
+.offer-example{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px
+}
+
+figure img {
+    border: 5px solid gray;
+    vertical-align: top;
+    object-fit: contain;
+    border-radius: 30px;
+    max-width: 300px;
+    max-height: 250px;
+}
+
+figure figcaption {
+    text-align: center
+}
+
+img.highlight{
+    width: 400px;
+    height: 200px;
+    margin: 70px
+}
+
+.signup-now{
+    display:flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.call-for-action{
+    display:flex;
+    background-color:#1e2837;
+    padding: 20px 250px 20px 250px;
+    margin: 100px;
+    border-radius: 20px;
+    border: 5px solid grey;
+    color: #f8fafa;
+}
+
+#signup-button {
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 30%;
+    color: white;
+    border: 1px solid white;
+    background-color: #1e2837;
+    cursor:pointer;
+}
+
+#signup-button:hover{
+    background-color: grey;
+    transition-duration: 0.4s;
+}
+
+#copyright{
+    display:flex;
+    color: grey;
+    background-color: #1e2837;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
