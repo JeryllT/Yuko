@@ -39,6 +39,7 @@ body {
 
 .purpose {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-top: 70px
 }
@@ -46,27 +47,25 @@ body {
 .testimonial-background{
     display:flex;
     background-color: #e6e6ea;
+    justify-content: center;
+    padding: 90px 100px
 }
 
 #testimonial-reply{
-    position: relative;
-    margin: 100px;
-    margin-left: 500px;
-    margin-right: 500px;
     font-size: 25px;
     font-style: italic;
 }
 
 #testimonial-person{
-    width: 100px;
-    position: absolute;
-    bottom: -35px;
-    left: 820px
+    align-self: flex-end;
+    font-size: 20px;
+    min-width: 50px
 }
 
 .offer-example{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     margin: 80px
 }
@@ -85,6 +84,7 @@ figure figcaption {
 }
 
 img.highlight{
+    display:flex;
     width: 400px;
     height: 200px;
     margin: 70px
